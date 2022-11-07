@@ -1,10 +1,8 @@
 import { useState } from "react";
 
 const CountComponent = ({
-  // min = Number.MIN_SAFE_INTEGER,
-  // max = Number.MAX_SAFE_INTEGER,
-  min = -17,
-  max = 25,
+  min = Number.MIN_SAFE_INTEGER,
+  max = Number.MAX_SAFE_INTEGER,
   initial = 0,
   step = 1,
 }) => {
